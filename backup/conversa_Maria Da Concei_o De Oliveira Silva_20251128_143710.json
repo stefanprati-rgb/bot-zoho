@@ -1,0 +1,84 @@
+{
+  "cliente_nome": "Maria Da Concei��o De Oliveira Silva",
+  "cliente_detalhes": {
+    "email": "conceicaooliveira2961@gmail.com",
+    "phone": "+55-199-828-16172",
+    "owner": ""
+  },
+  "ultima_msg_cliente": "Aí não dar",
+  "ultima_msg_agente": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\nO limite máximo de mensagens de modelo de marketing por usuário foi ultrapassado. Consulte aqui para saber mais detalhes.",
+  "mensagens": [
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda",
+      "time": "2025-11-28T17:28:21.959Z"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\n14:28",
+      "time": "2025-11-28T17:28:45.356Z"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda",
+      "time": "2025-11-28T17:29:09.339Z"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda",
+      "time": "2025-11-28T17:29:35.402Z"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\nO limite máximo de mensagens de modelo de marketing por usuário foi ultrapassado. Consulte aqui para saber mais detalhes.",
+      "time": "2025-11-28T17:29:59.623Z"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\nO limite máximo de mensagens de modelo de marketing por usuário foi ultrapassado. Consulte aqui para saber mais detalhes.",
+      "time": "2025-11-28T17:30:21.439Z"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\nO limite máximo de mensagens de modelo de marketing por usuário foi ultrapassado. Consulte aqui para saber mais detalhes.",
+      "time": "2025-11-28T17:30:43.638Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\nO limite máximo de mensagens de modelo de marketing por usuário foi ultrapassado. Consulte aqui para saber mais detalhes.",
+      "time": "2025-11-28T17:31:05.562Z"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Maria Da Concei��o De Oliveira Silva",
+      "text": "Olá",
+      "time": "2025-11-28T17:34:03.022Z"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Maria Da Concei��o De Oliveira Silva",
+      "text": "Mas eu estou pagando pra Era verde e pra Cpfl",
+      "time": "2025-11-28T17:34:23.192Z"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Maria Da Concei��o De Oliveira Silva",
+      "text": "Ol",
+      "time": "28/11/2025 14:33"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Maria Da Concei��o De Oliveira Silva",
+      "text": "Aí não dar",
+      "time": "28/11/2025 14:34"
+    }
+  ]
+}

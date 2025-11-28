@@ -1,0 +1,36 @@
+{
+  "cliente_nome": "Karen Carol Andressa Mesquita",
+  "cliente_detalhes": {
+    "email": "nine.kinho@gmail.com",
+    "phone": "+55-169-977-56366",
+    "owner": ""
+  },
+  "ultima_msg_cliente": "",
+  "ultima_msg_agente": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\n14:27",
+  "mensagens": [
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá! Identificamos que há um protocolo em aberto. Podemos dar continuidade ao atendimento?\nSim\n09:36",
+      "time": "2025-11-25T12:36:06.665Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Era Verde Energia: Mega Desconto para Você! 💚   Olá Cliente, volte a economizar com a gente!   Temos uma oferta única para suas faturas em aberto:   15% de DESCONTO no valor total para quitação imediata! 💰   Aproveite para:   Quitar a dívida com o super desconto.   Retomar a economia na sua conta de luz.   APROVEITE AGORA! Clique em \"EU QUERO 15\" e receba o boleto unificado na hora com vencimento para o próximo dia útil! ⏳   Oferta por tempo limitado.\nEU QUERO 15\n15:30",
+      "time": "2025-11-26T18:30:07.747Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Era Verde Energia: Mega Desconto para Você! 💚   Olá Cliente, volte a economizar com a gente!   Temos uma oferta única para suas faturas em aberto:   15% de DESCONTO no valor total para quitação imediata! 💰   Aproveite para:   Quitar a dívida com o super desconto.   Retomar a economia na sua conta de luz.   APROVEITE AGORA! Clique em \"EU QUERO 15\" e receba o boleto unificado na hora com vencimento para o próximo dia útil! ⏳   Oferta por tempo limitado.\nEU QUERO 15\n15:43",
+      "time": "2025-11-27T18:43:58.779Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\n14:27",
+      "time": "2025-11-28T17:27:03.283Z"
+    }
+  ]
+}

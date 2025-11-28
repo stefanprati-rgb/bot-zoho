@@ -1,0 +1,44 @@
+Cliente: Maria Da Concei��o De Oliveira Silva
+Última do cliente: Aí não dar
+Última do agente: Olá, Maria da Conceição! Aqui é o Stefan, da Era Verde Energia.
+
+Entendo perfeitamente sua dúvida sobre as faturas. É muito comum que isso gere confusão, mas vou te explicar como funciona o nosso processo para que fique bem claro:
+
+Você receberá semp...
+
+------------------------------------------------------------
+[2025-11-28T17:28:45.356Z] Sistema: Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.
+Já assinei
+Quero ajuda
+14:28
+[2025-11-28T17:29:09.339Z] Sistema: Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.
+Já assinei
+Quero ajuda
+[2025-11-28T17:29:35.402Z] Sistema: Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.
+Já assinei
+Quero ajuda
+[2025-11-28T17:29:59.623Z] Sistema: Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.
+Já assinei
+Quero ajuda
+O limite máximo de mensagens de modelo de marketing por usuário foi ultrapassado. Consulte aqui para saber mais detalhes.
+[2025-11-28T17:30:21.439Z] Sistema: Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.
+Já assinei
+Quero ajuda
+O limite máximo de mensagens de modelo de marketing por usuário foi ultrapassado. Consulte aqui para saber mais detalhes.
+[2025-11-28T17:30:43.638Z] Sistema: Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.
+Já assinei
+Quero ajuda
+O limite máximo de mensagens de modelo de marketing por usuário foi ultrapassado. Consulte aqui para saber mais detalhes.
+[2025-11-28T17:31:05.562Z] agente: Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.
+Já assinei
+Quero ajuda
+O limite máximo de mensagens de modelo de marketing por usuário foi ultrapassado. Consulte aqui para saber mais detalhes.
+[2025-11-28T17:34:03.022Z] Maria Da Concei��o De Oliveira Silva: Olá
+[2025-11-28T17:34:23.192Z] Maria Da Concei��o De Oliveira Silva: Mas eu estou pagando pra Era verde e pra Cpfl
+[28/11/2025 14:33] Maria Da Concei��o De Oliveira Silva: Ol
+[28/11/2025 14:34] Maria Da Concei��o De Oliveira Silva: Aí não dar
+[28/11/2025 14:41] Caroline Simões: Olá, Maria da Conceição! Aqui é o Stefan, da Era Verde Energia.
+
+Entendo perfeitamente sua dúvida sobre as faturas. É muito comum que isso gere confusão, mas vou te explicar como funciona o nosso processo para que fique bem claro:
+
+Você receberá semp...

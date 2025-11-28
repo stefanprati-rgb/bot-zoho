@@ -72,6 +72,7 @@ Use frases curtas e claras. Foque no próximo passo.
 """
 
 # Seletores CSS/XPath Otimizados (LEGADO - USADO APENAS PARA LOGIN)
+# Seletores CSS/XPath Otimizados (LEGADO - USADO APENAS PARA LOGIN)
 ZHOO_DESK_SELECTORS = {
     # Login (usando seletores funcionais da V2.2)
     "login": {
@@ -83,7 +84,8 @@ ZHOO_DESK_SELECTORS = {
         "otp_field": ["#otp", "input[name='otp']", "input[class*='otp']"],
         "dashboard_check": ["button[data-id='globalSearchIcon']", "[data-id='globalSearchIcon']"]
     },
-    # Novos seletores mapeados (V3.17)
+    
+    # --- NAVEGAÇÃO E ESTRUTURA (V3.17) ---
     "navegacao_superior": {
         "link_whatsapp": "a[href*='whatsapp']",
         "link_email": "a[href*='e-mail']",
@@ -94,49 +96,83 @@ ZHOO_DESK_SELECTORS = {
         "dropdown_era_verde": "button[aria-haspopup='menu']",
         "botao_novo_ticket": "a[href*='e-mail/new']",
         "busca_global": "button#GlobalSearch",
-        "notificacoes": "button#Notification"
+        "notificacoes": "button#Notification",
+        "quick_action": "button[aria-haspopup='menu']", # Ref C10
+        "apps_menu": "button[aria-label*='menu']" # Ref C17
     },
+    
     "menu_lateral": {
-        "painel": "menuitem", # XPath: //menuitem[contains(text(), 'Painel')]
-        "todos_os_canais": "menuitem", # XPath: //menuitem[contains(text(), 'Todos os canais')]
-        "minhas_conversas": "menuitem", # XPath: //menuitem[contains(text(), 'Minhas Conversas')]
-        "nao_atribuidas": "menuitem", # XPath: //menuitem[contains(text(), 'Nao Atribuidas')]
-        "bloqueado": "menuitem", # XPath: //menuitem[contains(text(), 'Bloqueado')]
-        "encerrado": "menuitem", # XPath: //menuitem[contains(text(), 'Encerrado')]
-        "todas_as_conversas": "menuitem", # XPath: //menuitem[contains(text(), 'Todas As Conversas')]
-        "conversas_do_bot": "menuitem" # XPath: //menuitem[contains(text(), 'Conversas Do Bot')]
+        "painel": "//menuitem[contains(text(), 'Painel')]",
+        "todos_os_canais": "//menuitem[contains(text(), 'canais')]",
+        "minhas_conversas": "//menuitem[contains(text(), 'Minhas')]",
+        "nao_atribuidas": "//menuitem[contains(text(), 'Atribuída')]",
+        "bloqueado": "//menuitem[contains(text(), 'Bloqueado')]",
+        "encerrado": "//menuitem[contains(text(), 'Encerrado')]",
+        "todas_as_conversas": "//menuitem[contains(text(), 'Todas')]",
+        "conversas_do_bot": "//menuitem[contains(text(), 'Bot')]"
     },
+    
     "filtro_conversas": {
-        "dropdown_todos": "button:nth-of-type(1)",
-        "filtro_departamento": "button[aria-label*='Filtrar']",
-        "busca_conversas": "button[id*='search']"
+        "dropdown_todos": "//button[contains(text(), 'Todos')]",
+        "filtro_departamento": "//button[contains(text(), 'Filtrar')]",
+        "busca_conversas": "button[aria-label*='search']",
+        "limpar_filtro": "//button[contains(text(), 'Limpar')]"
     },
+    
     "lista_conversas": {
         "lista_principal": "div[role='region'] button",
-        "conversa_amanda": "button#70778000001253570",
-        "conversa_conceicao": "button#70778000001392560",
-        "conversa_david": "button#70778000001392421"
+        # Exemplos de IDs dinâmicos para referência
+        "exemplo_item": "button[id^='7077']" 
     },
-    "chat_central": {
-        "cabecalho_contato": "heading", # XPath: //heading[contains(text(), 'Amanda Queiroz')]
-        "assignado_para": "button[aria-label*='Caroline']"
+    
+    # --- CHAT ATIVO (V3.17) ---
+    "chat_ativo": {
+        "header": {
+            "titulo_contato": "heading", # XPath: //heading[contains(text(), 'Nome')]
+            "atribuido_para": "//button[contains(text(), 'Caroline')]" # Exemplo
+        },
+        "mensagens": {
+            "generico": "button", # Mensagens são botões clicáveis geralmente
+            "data": "generic", # Elementos de texto com data
+            "sistema": "generic" # Mensagens de sistema "Hoje", "Você reabriu"
+        },
+        "acoes": {
+            "resposta_tab": "//link[contains(text(), 'RESPOSTA')]",
+            "escolher_modelo": "//button[contains(text(), 'Modelo')]",
+            "encerrar_chat": "//button[contains(text(), 'Encerrar')]",
+            "anexar": "button:contains-text('arquivo')", # Pseudo
+            "emoji": "button:contains-text('Emoji')"
+        },
+        "editor": {
+            "campo_resposta": "div[contenteditable='true']"
+        }
     },
-    "editor_resposta": {
-        "campo_resposta": "div[contenteditable='true']",
-        "inserir_artigo": "button:contains-text('artigo')", # Pseudo-selector, requires specific handling or XPath
-        "templates_mensagem": "button:contains-text('modelo')",
-        "adicionar_emoji": "button:contains-text('Emoji')",
-        "adicionar_imagem": "button:contains-text('imagem')",
-        "adicionar_arquivo": "button:contains-text('arquivo')",
-        "encerrar_chat": "button:contains-text('Encerrar')"
-    },
+    
+    # --- PAINEL DIREITO (V3.17) ---
     "painel_direito": {
-        "contato_informacoes": "heading:contains-text('Contato')",
-        "email_label": "label#E-mail",
-        "proprietario_contato": "label[id*='Proprietario']",
+        "contato_info_header": "//heading[contains(text(), 'Contato Informações')]",
+        "email_label": "label#E-mail", # Ou busca por texto
+        "email_value": "//text()[contains(., '@')]", # Genérico para busca
+        "proprietario_label": "label[id*='Proprietario']",
         "celular_label": "label#Celular",
-        "detalhes_conversa": "heading:contains-text('Detalhes')",
-        "email_heading": "heading:contains-text('E-Mail')"
+        "detalhes_conversa": "//heading[contains(text(), 'Detalhes')]"
+    },
+    
+    # --- MODAL TEMPLATES (V3.17) ---
+    "modal_templates": {
+        "modal_container": "generic[aria-current='true']",
+        "titulo": "//text()[contains(., 'MODELOS DE MENSAGEM')]",
+        "campo_pesquisa": "textbox[placeholder*='Pesquisar']",
+        "lista_modelos": "button", # Botões dentro da lista
+        "botao_fechar": "//button[contains(text(), 'Fechar')]",
+        "botao_enviar": "//button[contains(text(), 'Enviar Mensagem')]",
+        "preview_corpo": "//text()[contains(., 'Olá Cliente')]" # Exemplo
+    },
+    
+    # --- CHAT ENCERRADO (V3.17) ---
+    "chat_encerrado": {
+        "botao_reabrir": "//button[contains(text(), 'Reabrir')]",
+        "status_texto": "//text()[contains(., 'Chat foi encerrado')]"
     }
 }
 

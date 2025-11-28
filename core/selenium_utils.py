@@ -122,18 +122,18 @@ def navigate_to_section(driver, section_name="minhas_conversas"):
     (V3.17) Navega para uma seção do menu lateral.
     """
     try:
-        selector = ZHOO_DESK_SELECTORS["menu_lateral"].get(section_name)
-        if not selector:
-            logging.warning(f"Seção '{section_name}' não encontrada nos seletores.")
-            return False
-            
-        # Simplificação: Busca pelo texto se for menuitem
-        # XPath é mais seguro aqui dado o mapeamento
-        xpath = f"//menuitem[contains(text(), '{section_name.replace('_', ' ').title()}')]"
-        if section_name == "minhas_conversas":
-            xpath = "//menuitem[contains(text(), 'Minhas Conversas')]"
-        elif section_name == "nao_atribuidas":
-            xpath = "//menuitem[contains(text(), 'Nao Atribuidas')]"
+        # Busca direta pelo XPath mapeado em settings.py
+        xpath = ZHOO_DESK_SELECTORS["menu_lateral"].get(section_name)
+        
+        if not xpath:
+            # Fallback para nomes padronizados se a chave não bater exata
+            if section_name == "minhas_conversas":
+                xpath = ZHOO_DESK_SELECTORS["menu_lateral"]["minhas_conversas"]
+            elif section_name == "nao_atribuidas":
+                xpath = ZHOO_DESK_SELECTORS["menu_lateral"]["nao_atribuidas"]
+            else:
+                logging.warning(f"Seção '{section_name}' não encontrada nos seletores.")
+                return False
             
         el = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, xpath)))
         el.click()
@@ -163,9 +163,8 @@ def close_current_chat(driver):
     (V3.17) Encerra o chat atual clicando no botão 'Encerrar'.
     """
     try:
-        # Seletor: button:contains-text('Encerrar')
-        # XPath: //button[contains(text(), 'Encerrar')]
-        xpath = "//button[contains(text(), 'Encerrar')]"
+        # Usa o XPath mapeado em settings.py
+        xpath = ZHOO_DESK_SELECTORS["chat_ativo"]["acoes"]["encerrar_chat"]
         btn = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, xpath)))
         btn.click()
         logging.info("Botão 'Encerrar' clicado.")
