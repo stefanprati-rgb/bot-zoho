@@ -12,11 +12,26 @@ BACKUP_DIR = os.path.join(BASE_DIR, "backup")
 for directory in [LOG_DIR, OUTPUT_DIR, CONVERSAS_DIR, BACKUP_DIR]:
     os.makedirs(directory, exist_ok=True)
 
+# Diretório de Perfil do Navegador (Perfil do Usuário do Windows)
+# ATENÇÃO: O Edge deve estar FECHADO para isso funcionar.
+BROWSER_PROFILE_DIR = os.path.join(os.getenv('LOCALAPPDATA'), 'Microsoft', 'Edge', 'User Data')
+BROWSER_PROFILE_NAME = "Profile 1" # Mudado para Profile 1 pois Default não estava logado
+
 # Configuração da API Gemini
 GEMINI_API_KEY = "AIzaSyDGGVLMDCvC-tzBtqxWD7gzfyj8cuOsqho"
 
 # URL específica do Zoho Desk
 URL_ZOHO_DESK = "https://desk.zoho.com/agent/hubedesk/era-verde-energia/whatsapp/page#IM/-1/sessions/mine-all"
+
+# Configuração do Gemini Web (Dual-Tab)
+GEMINI_WEB_URL = "https://gemini.google.com/gem/81ea40e7bb1f/c743cc17ca753e17?usp=sharing"
+GEMINI_WEB_SELECTORS = {
+    "input_prompt": "div[contenteditable='true']", # ref_2345
+    "botao_enviar": "button[aria-label='Enviar mensagem']", # ref_2351
+    "chat_history": "#chat-history", # ref_2352
+    "ultima_resposta": ".model-response-text", # (Mantido como fallback genérico)
+    "botao_copiar": "button[aria-label='Copiar'], button[aria-label='Copiar resposta']" # ref_2686
+}
 
 # Timeout para login manual (OTP)
 TIMEOUT_LOGIN_MANUAL_SEGUNDOS = 900  # 15 minutos

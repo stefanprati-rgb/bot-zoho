@@ -58,7 +58,7 @@ class ZohoDeskAutomator:
         logging.info(f"Arquivo de log: {log_path}")
     
     def start_browser(self) -> bool:
-        """Inicia navegador Edge com configurações otimizadas"""
+        """Inicia navegador Edge com configurações otimizadas e perfil persistente"""
         try:
             logging.info("Iniciando navegador Edge...")
             
@@ -67,6 +67,13 @@ class ZohoDeskAutomator:
             options.add_argument("--disable-dev-shm-usage")
             options.add_argument("--disable-gpu")
             options.add_argument("--window-size=1920,1080")
+            
+            # Configuração de Perfil Persistente (Corrige erro de login/passkey)
+            from config.settings import BROWSER_PROFILE_DIR, BROWSER_PROFILE_NAME
+            logging.info(f"Carregando perfil do navegador: {BROWSER_PROFILE_NAME}")
+            options.add_argument(f"user-data-dir={BROWSER_PROFILE_DIR}")
+            options.add_argument(f"profile-directory={BROWSER_PROFILE_NAME}") # Usa o perfil real do usuário
+            
             options.add_experimental_option("useAutomationExtension", False)
             options.add_experimental_option("excludeSwitches", ["enable-automation"])
             
@@ -84,6 +91,7 @@ class ZohoDeskAutomator:
             
         except Exception as e:
             logging.error(f"[ERRO] Erro ao iniciar navegador: {e}")
+            logging.error("DICA: Feche todas as janelas do Edge antes de rodar o bot.")
             return False
     
     def _inserir_texto_seguro(self, elemento, texto, nome_campo):
@@ -325,7 +333,7 @@ class ZohoDeskAutomator:
     
     def process_conversation(self) -> Tuple[bool, str, Dict]:
         """
-        Processa conversa ativa e gera resposta (ADAPTADO V3.6)
+        Processa conversa ativa e gera resposta (ADAPTADO V3.18 - Gemini Web)
         
         Returns:
             Tupla (sucesso, resposta, dados_conversa)
@@ -339,8 +347,6 @@ class ZohoDeskAutomator:
             wait = WebDriverWait(self.driver, 20)
             
             # Chamar a nova função de extração V3.2 (refinada V3.3)
-            # Esta função (V3.2) implicitamente usa a V3.8 wait_msgslist_ready
-            # porque a definimos globalmente.
             conversation_data = extract_conversation_v2(self.driver, wait, logging)
             
             # Adaptar as chaves
@@ -362,61 +368,84 @@ class ZohoDeskAutomator:
             # Salvar conversa extraída (JSON)
             self._save_conversation_backup(conversation_data)
             
-            # ==================================
-            # LÓGICA V3.1 (MANTIDA)
-            # ==================================
             # Exportar CSV (e opcionalmente TXT)
             try:
-                # Usar a constante BACKUP_DIR para consistência
                 csv_arquivo = export_conversation_to_csv(conversation_data, base_dir=BACKUP_DIR, logger=logging)
-                txt_arquivo = export_conversation_to_txt(conversation_data, base_dir=BACKUP_DIR, logger=logging)  # opcional
+                txt_arquivo = export_conversation_to_txt(conversation_data, base_dir=BACKUP_DIR, logger=logging)
                 logging.info(f"[OK] Exportações concluídas: CSV={csv_arquivo}, TXT={txt_arquivo}")
             except Exception as e:
                 logging.warning(f"[WARN]️ Falha ao exportar CSV/TXT: {e}")
-            # ==================================
-            # FIM DA LÓGICA V3.1
-            # ==================================
             
-            # Gerar resposta com Gemini (AGORA COM STREAMING V3.4)
-            response = self.gemini_analyzer.analyze_conversation(conversation_data)
+            # ==================================
+            # GERAÇÃO DE RESPOSTA (V3.18 - Gemini Web Dual-Tab)
+            # ==================================
+            logging.info("🤖 Enviando contexto para o Gemini Web...")
             
-            if response:
-                # Salvar resposta (o streaming já foi impresso no console)
-                response_path = self._save_response(response, client_name)
-                logging.info(f"[OK] Resposta completa salva em: {response_path}")
+            # Construir prompt
+            # Instancia temporária apenas para formatar
+            analyzer = GeminiAnalyzer(GEMINI_API_KEY) 
+            historico_fmt = analyzer._format_conversation_history(conversation_data.get("mensagens", []))
+            
+            client_details = conversation_data.get("cliente_detalhes", {})
+            detalhes_str = ""
+            if client_details:
+                detalhes_str = f"DADOS CLIENTE: Email: {client_details.get('email')} | Tel: {client_details.get('phone')}"
 
-                # ==================================
-                # INÍCIO DO PATCH V3.10 - PRÉ-PREENCHIMENTO (ProseMirror)
-                # ==================================
-                try:
-                    # Verificar se há ação de fechar
-                    if "[ACTION: CLOSE]" in response:
-                        logging.info("🛑 Ação de encerramento detectada pelo Gemini.")
-                        response = response.replace("[ACTION: CLOSE]", "").strip()
-                        should_close = True
-                    else:
-                        should_close = False
+            prompt_text = f"""
+Analisar conversa:
+{historico_fmt}
+{detalhes_str}
+Última msg: {conversation_data.get('ultima_msg_cliente')}
 
-                    logging.info("[ESCREVER]  Preenchendo a resposta no chat (ProseMirror V3.10)...")
-                    preencher_resposta_no_zoho(self.driver, response, timeout=15)
-                    logging.info("[OK] Mensagem escrita no composer do Zoho (não enviada).")
-                    
-                    if should_close:
-                        # (Opcional) Poderíamos enviar a mensagem antes de fechar
-                        # Mas como o preencher_resposta não envia, o humano ainda precisa confirmar
-                        logging.info("⚠️ Sugestão de encerramento: O bot identificou que este chat pode ser fechado.")
-                        # from core.selenium_utils import close_current_chat
-                        # close_current_chat(self.driver) 
-                        
-                except Exception as e:
-                    logging.error(f"[WARN]️ Não consegui escrever no composer automaticamente (V3.10): {e}")
-                # ==================================
-                # FIM DO PATCH V3.10
-                # ==================================
-
-                return True, response, conversation_data
-            else:
+Responda como Stefan.
+"""
+            # Enviar para Gemini Web
+            if not self.gemini_web.send_message(prompt_text):
+                logging.error("Falha ao enviar mensagem para Gemini Web.")
                 return False, "", conversation_data
+            
+            # Pegar resposta
+            response = self.gemini_web.get_last_response()
+            if not response:
+                logging.error("Falha ao obter resposta do Gemini Web.")
+                return False, "", conversation_data
+
+            # Limpar citações do Gemini (ex: [cite_start], [cite: 9])
+            import re
+            response = re.sub(r"\[cite.*?\]", "", response).strip()
+                
+            logging.info(f"🤖 Resposta gerada (Web): {response[:50]}...")
+            
+            # Voltar para Zoho
+            self.gemini_web.switch_back_to_zoho()
+            
+            # Salvar resposta
+            response_path = self._save_response(response, client_name)
+            logging.info(f"[OK] Resposta salva em: {response_path}")
+
+            # ==================================
+            # PREENCHIMENTO E AÇÕES
+            # ==================================
+            try:
+                # Verificar se há ação de fechar
+                if "[ACTION: CLOSE]" in response:
+                    logging.info("🛑 Ação de encerramento detectada pelo Gemini.")
+                    response = response.replace("[ACTION: CLOSE]", "").strip()
+                    should_close = True
+                else:
+                    should_close = False
+
+                logging.info("[ESCREVER] Preenchendo a resposta no chat...")
+                preencher_resposta_no_zoho(self.driver, response, timeout=15)
+                logging.info("[OK] Mensagem escrita no composer do Zoho (não enviada).")
+                
+                if should_close:
+                    logging.info("⚠️ Sugestão de encerramento: O bot identificou que este chat pode ser fechado.")
+                    
+            except Exception as e:
+                logging.error(f"[WARN]️ Não consegui escrever no composer automaticamente: {e}")
+
+            return True, response, conversation_data
                 
         except Exception as e:
             logging.error(f"[ERRO] Erro ao processar conversa: {e}")
@@ -556,13 +585,25 @@ Modelo: Gemini 2.5-flash (temperature=0.6, max_tokens=1024)
         msgs_root = None # V3.8: Armazena o container da conversa atual
         
         try:
-            # Configurar Gemini
-            logging.info("Configurando API Gemini...")
-            self.gemini_analyzer = GeminiAnalyzer(GEMINI_API_KEY)
+            # Configurar Gemini (Web ou API)
+            # V3.18: Usando Gemini Web (Dual-Tab)
+            logging.info("Configurando Gemini Web Client...")
+            # Importação local para evitar ciclo se houver
+            from core.gemini_web import GeminiWebClient
+            # A inicialização do driver acontece em start_browser, então instanciamos o client lá ou aqui após start
             
             # Iniciar navegador
             if not self.start_browser():
                 return False
+            
+            # Inicializar Client Web com o driver já aberto
+            self.gemini_web = GeminiWebClient(self.driver)
+            if not self.gemini_web.open_gemini():
+                logging.error("Falha ao abrir Gemini Web. Abortando.")
+                return False
+            
+            # Voltar para Zoho para login
+            self.gemini_web.switch_back_to_zoho()
             
             # Login
             if not self.login():
@@ -658,10 +699,22 @@ Modelo: Gemini 2.5-flash (temperature=0.6, max_tokens=1024)
         (V3.17) Modo Autônomo: Navega e processa conversas automaticamente.
         """
         try:
-            logging.info("🚀 INICIANDO MODO AUTOPILOT")
-            self.gemini_analyzer = GeminiAnalyzer(GEMINI_API_KEY)
+            logging.info("🚀 INICIANDO MODO AUTOPILOT (Gemini Web)")
+            
+            # Importação local
+            from core.gemini_web import GeminiWebClient
             
             if not self.start_browser(): return
+            
+            # Inicializar Client Web
+            self.gemini_web = GeminiWebClient(self.driver)
+            if not self.gemini_web.open_gemini():
+                logging.error("Falha ao abrir Gemini Web. Abortando.")
+                return
+
+            # Voltar para Zoho
+            self.gemini_web.switch_back_to_zoho()
+            
             if not self.login(): return
             
             # 1. Ir para "Minhas Conversas"

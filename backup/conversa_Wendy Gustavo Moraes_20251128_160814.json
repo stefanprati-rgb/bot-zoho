@@ -1,0 +1,132 @@
+{
+  "cliente_nome": "Wendy Gustavo Moraes",
+  "cliente_detalhes": {
+    "email": "wendy.gus@hotmail.com",
+    "phone": "+55-199-200-03730",
+    "owner": ""
+  },
+  "ultima_msg_cliente": "Sim, saber mais! | Olá, cliente.\nAqui é Stefan, da Era Verde Energia.\nEstamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade...",
+  "ultima_msg_agente": "Imagina! Em caso de eventuais dúvidas, permaneço à disposição.",
+  "mensagens": [
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Isabella Costa atribuiu o chat ao Você em 08/10/2025 09:30",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Isabella Costa atribuiu o chat ao Você em 08/10/2025 09:30 | 08/10/2025\nO Isabella Costa atribuiu o chat ao Você em 08/10/2025 09:30",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 10/10/2025 15:41",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 10/10/2025 15:41 | 10/10/2025\nO chat foi encerrado em 10/10/2025 15:41\nUm ID de tíquete #6571 foi criado com a transcrição da mensagem gravada neste chat.",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 25/08/2025 16:35",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 25/08/2025 16:35 | O chat foi encerrado em 25/08/2025 16:35\nUm ID de tíquete #6571 foi criado com a transcrição da mensagem gravada neste chat.",
+      "time": ""
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Wendy Gustavo Moraes",
+      "text": "Sim, saber mais! | Olá, cliente.\nAqui é Stefan, da Era Verde Energia.\nEstamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade...",
+      "time": "06/10/2025 16:33"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Wendy Gustavo Moraes",
+      "text": "Sim, saber mais! | Olá, cliente.\nAqui é Stefan, da Era Verde Energia.\nEstamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade...",
+      "time": "08/10/2025 15:01"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "Caroline Simões",
+      "text": "Excelente! Fico feliz com seu interesse.\nA melhor parte dessa atualização é que, com a nova usina, vamos conseguir injetar ainda mais energia para você, garantindo que alcance o máximo desconto possível na sua conta de luz.\nPara que você receba esse ...",
+      "time": "08/10/2025 15:18"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Wendy Gustavo Moraes",
+      "text": "Agradeço pelos esclarecimentos",
+      "time": "2025-08-25T19:23:11.526Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá, cliente. Aqui é Stefan, da Era Verde Energia. Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade dos benefícios na sua conta de luz. Todo o processo é digital, sem custo extra, mantendo suas condições atuais. Se preferir conversar ou esclarecer alguma dúvida sobre essa atualização, você pode agendar um horário pelo link: https://calendly.com/gestao-gdc/30min Caso queira tratar diretamente por aqui, fique à vontade para responder esta mensagem. Agradecemos a parceria. Era Verde Energia\nSim, saber mais!\nJá agendei o horário\n16:06",
+      "time": "2025-10-06T19:06:02.226Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá, cliente. Aqui é Stefan, da Era Verde Energia. Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade dos benefícios na sua conta de luz. Todo o processo é digital, sem custo extra, mantendo suas condições atuais. Se preferir conversar ou esclarecer alguma dúvida sobre essa atualização, você pode agendar um horário pelo link: https://calendly.com/gestao-gdc/30min Caso queira tratar diretamente por aqui, fique à vontade para responder esta mensagem. Agradecemos a parceria. Era Verde Energia\nSim, saber mais!\nJá agendei o horário\n14:55",
+      "time": "2025-10-08T17:55:08.061Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá, cliente. Aqui é Stefan, da Era Verde Energia. Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade dos benefícios na sua conta de luz. Todo o processo é digital, sem custo extra, mantendo suas condições atuais. Se preferir conversar ou esclarecer alguma dúvida sobre essa atualização, você pode agendar um horário pelo link: https://calendly.com/gestao-gdc/30min Caso queira tratar diretamente por aqui, fique à vontade para responder esta mensagem. Agradecemos a parceria. Era Verde Energia\nSim, saber mais!\nJá agendei o horário\n16:05",
+      "time": "2025-11-28T19:05:30.843Z"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Wendy Gustavo Moraes",
+      "text": "E tem previsão para isso acontecer?",
+      "time": "25/08/2025 16:19"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "Isabella Costa",
+      "text": "Ainda não consigo te passar uma previsão exata, mas os ajustes já estão em andamento e sendo devidamente provisionados.",
+      "time": "25/08/2025 16:22"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Wendy Gustavo Moraes",
+      "text": "Certo",
+      "time": "25/08/2025 16:22"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "Isabella Costa",
+      "text": "Imagina! Em caso de eventuais dúvidas, permaneço à disposição.",
+      "time": "25/08/2025 16:23"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Wendy Gustavo Moraes",
+      "text": "Obrigado Isabella",
+      "time": "25/08/2025 16:23"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Wendy Gustavo Moraes",
+      "text": "Olá",
+      "time": "28/11/2025 16:06"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Wendy Gustavo Moraes",
+      "text": "Sim, saber mais! | Olá, cliente.\nAqui é Stefan, da Era Verde Energia.\nEstamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade...",
+      "time": "28/11/2025 16:07"
+    }
+  ]
+}

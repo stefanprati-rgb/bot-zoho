@@ -1,0 +1,5 @@
+2025/11/28-15:26:35.364 4da0 Creating DB C:\Projetos\Bot\browser_profile\Default\Local Storage\leveldb since it was missing.
+2025/11/28-15:26:35.782 4da0 Reusing MANIFEST C:\Projetos\Bot\browser_profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/11/28-15:26:55.026 edc Level-0 table #5: started
+2025/11/28-15:26:55.050 edc Level-0 table #5: 33481 bytes OK
+2025/11/28-15:26:55.056 edc Delete type=0 #3

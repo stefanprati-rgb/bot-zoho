@@ -1,0 +1,96 @@
+{
+  "cliente_nome": "Carolina Barrada Curaça",
+  "cliente_detalhes": {
+    "email": "carolinacuraca@gmail.com",
+    "phone": "+55-199-818-10185",
+    "owner": ""
+  },
+  "ultima_msg_cliente": "Quero ajuda | Olá, tudo bem? Aqui é o Stefan da Era Verde Energia.\nEstou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e c...",
+  "ultima_msg_agente": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\n14:17",
+  "mensagens": [
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Você aceitou o chat em 15/10/2025 15:53",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Você aceitou o chat em 15/10/2025 15:53",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Você reabriu o chat em 06/11/2025 14:02",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Você reabriu o chat em 06/11/2025 14:02 | 06/11/2025\nO Você reabriu o chat em 06/11/2025 14:02",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 16/10/2025 16:42",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 16/10/2025 16:42 | 16/10/2025\nO chat foi encerrado em 16/10/2025 16:42",
+      "time": ""
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Carolina Barrada Curaça",
+      "text": "Sim, saber mais! | Olá, cliente.\nAqui é Stefan, da Era Verde Energia.\nEstamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade...",
+      "time": "15/10/2025 08:35"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "Caroline Simões",
+      "text": "Excelente! Fico feliz com seu interesse.\nA melhor parte dessa atualização é que, com a expansão da nossa usina, vamos conseguir injetar ainda mais energia para você, garantindo que alcance o máximo desconto possível na sua conta de luz.\nPara que você...",
+      "time": "15/10/2025 15:53"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Carolina Barrada Curaça",
+      "text": "Sim",
+      "time": "15/10/2025 16:22"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá, cliente. Aqui é Stefan, da Era Verde Energia. Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade dos benefícios na sua conta de luz. Todo o processo é digital, sem custo extra, mantendo suas condições atuais. Se preferir conversar ou esclarecer alguma dúvida sobre essa atualização, você pode agendar um horário pelo link: https://calendly.com/gestao-gdc/30min Caso queira tratar diretamente por aqui, fique à vontade para responder esta mensagem. Agradecemos a parceria. Era Verde Energia\nSim, saber mais!\nJá agendei o horário\n16:52",
+      "time": "2025-10-14T19:52:41.417Z"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Olá! Identificamos que há um protocolo em aberto. Podemos dar continuidade ao atendimento?\nSim\n14:02",
+      "time": "2025-11-06T17:02:43.798Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá! Identificamos que há um protocolo em aberto. Podemos dar continuidade ao atendimento?\nSim\n09:39",
+      "time": "2025-11-25T12:39:16.967Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.\nJá assinei\nQuero ajuda\n14:17",
+      "time": "2025-11-28T17:17:54.437Z"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Carolina Barrada Curaça",
+      "text": "Quero ajuda | Olá, tudo bem? Aqui é o Stefan da Era Verde Energia.\nEstou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e c...",
+      "time": "28/11/2025 15:53"
+    }
+  ]
+}

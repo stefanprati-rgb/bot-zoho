@@ -1,0 +1,144 @@
+{
+  "cliente_nome": "Isabela Maria Coutinho De Lima",
+  "cliente_detalhes": {
+    "email": "vinihmarin@gmail.com",
+    "phone": "+55-169-962-05723",
+    "owner": ""
+  },
+  "ultima_msg_cliente": "Acho mais fácil pagar uma conta só | Sim, poderia nos informar o motivo para o cancelamento, por gentileza?",
+  "ultima_msg_agente": "Mega Desconto PRORROGADO para Você! 💚   Olá Cliente, aproveite o seu 13º e volte a economizar com a gente!   Temos uma oferta única para suas faturas em aberto:   15% de DESCONTO + Isenção dos Juros no valor total para quitação imediata! 💰  Aproveite para:   Quitar a dívida com o super desconto e regularizar a sua injeção de energia conosco.   ÚLTIMA CHANCE DE REGULARIZAR! Clique em \"QUERO 15 + Isenção\" e receba o boleto unificado na hora com vencimento para o próximo dia útil! ⏳   Oferta PRORROGADA por tempo limitado.\nQUERO 15 + Isenção\n15:18",
+  "mensagens": [
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Chat Reopened on Chat transfer em 22/10/2025 12:39",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Chat Reopened on Chat transfer em 22/10/2025 12:39",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 02/09/2025 09:25",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 02/09/2025 09:25 | 02/09/2025\nO chat foi encerrado em 02/09/2025 09:25",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 06/11/2025 10:14",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 06/11/2025 10:14 | 06/11/2025\nO chat foi encerrado em 06/11/2025 10:14",
+      "time": ""
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Isabela Maria Coutinho De Lima",
+      "text": "Acho mais fácil pagar uma conta só | Sim, poderia nos informar o motivo para o cancelamento, por gentileza?",
+      "time": "01/09/2025 16:01"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "Isabella Costa",
+      "text": "Sim, poderia nos informar o motivo para o cancelamento, por gentileza? | E além disso, poderíamos romper o contrato?",
+      "time": "01/09/2025 16:01"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "Isabella Costa",
+      "text": "Para realizar o cancelamento sem custo, é necessário seguir com um aviso prévio de 90 dias.\nEsse prazo é importante porque a sua instalação já está incluída nos nossos rateios, e precisamos acompanhá-la durante esse período para verificar se haverá g...",
+      "time": "01/09/2025 16:03"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Entendo",
+      "time": "2025-09-01T19:03:11.031Z"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Como você avalia o seu atendimento?\nBom\nRuim\nFeedback ⋅ 09:25",
+      "time": "2025-09-02T12:25:25.942Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá, cliente. Aqui é Stefan, da Era Verde Energia. Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade dos benefícios na sua conta de luz. Todo o processo é digital, sem custo extra, mantendo suas condições atuais. Se preferir conversar ou esclarecer alguma dúvida sobre essa atualização, você pode agendar um horário pelo link: https://calendly.com/gestao-gdc/30min Caso queira tratar diretamente por aqui, fique à vontade para responder esta mensagem. Agradecemos a parceria. Era Verde Energia\nSim, saber mais!\nJá agendei o horário\n12:02",
+      "time": "2025-10-22T15:02:27.016Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá. O pagamento da fatura ainda não foi localizado. Para seguirmos com a regularização, por favor escolha uma das opções:\nQuero regularizar!\nEnviar comprovante\n09:51",
+      "time": "2025-10-24T12:51:23.874Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá. O pagamento da fatura ainda não foi localizado. Para seguirmos com a regularização, por favor escolha uma das opções:\nQuero regularizar!\nEnviar comprovante\n12:59",
+      "time": "2025-10-29T15:59:07.401Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá, cliente. Aqui é Stefan, da Era Verde Energia. Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade dos benefícios na sua conta de luz. Todo o processo é digital, sem custo extra, mantendo suas condições atuais. Se preferir conversar ou esclarecer alguma dúvida sobre essa atualização, você pode agendar um horário pelo link: https://calendly.com/gestao-gdc/30min Caso queira tratar diretamente por aqui, fique à vontade para responder esta mensagem. Agradecemos a parceria. Era Verde Energia\nSim, saber mais!\nJá agendei o horário\n11:12",
+      "time": "2025-11-04T14:12:26.534Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá. O pagamento da fatura ainda não foi localizado. Para seguirmos com a regularização, por favor escolha uma das opções:\nQuero regularizar!\nEnviar comprovante\n10:13",
+      "time": "2025-11-10T13:13:30.781Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá. O pagamento da fatura ainda não foi localizado. Para seguirmos com a regularização, por favor escolha uma das opções:\nQuero regularizar!\nEnviar comprovante\n15:43",
+      "time": "2025-11-12T18:43:54.469Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá. O pagamento da fatura ainda não foi localizado. Para seguirmos com a regularização, por favor escolha uma das opções:\nQuero regularizar!\nEnviar comprovante\n16:06",
+      "time": "2025-11-13T19:06:32.382Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá. O pagamento da fatura ainda não foi localizado. Para seguirmos com a regularização, por favor escolha uma das opções:\nQuero regularizar!\nEnviar comprovante\n15:53",
+      "time": "2025-11-14T18:53:52.517Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Era Verde Energia: Mega Desconto para Você! 💚   Olá Cliente, volte a economizar com a gente!   Temos uma oferta única para suas faturas em aberto:   15% de DESCONTO no valor total para quitação imediata! 💰   Aproveite para:   Quitar a dívida com o super desconto.   Retomar a economia na sua conta de luz.   APROVEITE AGORA! Clique em \"EU QUERO 15\" e receba o boleto unificado na hora com vencimento para o próximo dia útil! ⏳   Oferta por tempo limitado.\nEU QUERO 15\n14:48",
+      "time": "2025-11-17T17:48:06.851Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Era Verde Energia: Mega Desconto para Você! 💚   Olá Cliente, volte a economizar com a gente!   Temos uma oferta única para suas faturas em aberto:   15% de DESCONTO no valor total para quitação imediata! 💰   Aproveite para:   Quitar a dívida com o super desconto.   Retomar a economia na sua conta de luz.   APROVEITE AGORA! Clique em \"EU QUERO 15\" e receba o boleto unificado na hora com vencimento para o próximo dia útil! ⏳   Oferta por tempo limitado.\nEU QUERO 15\n17:08",
+      "time": "2025-11-25T20:08:05.165Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Mega Desconto PRORROGADO para Você! 💚   Olá Cliente, aproveite o seu 13º e volte a economizar com a gente!   Temos uma oferta única para suas faturas em aberto:   15% de DESCONTO + Isenção dos Juros no valor total para quitação imediata! 💰  Aproveite para:   Quitar a dívida com o super desconto e regularizar a sua injeção de energia conosco.   ÚLTIMA CHANCE DE REGULARIZAR! Clique em \"QUERO 15 + Isenção\" e receba o boleto unificado na hora com vencimento para o próximo dia útil! ⏳   Oferta PRORROGADA por tempo limitado.\nQUERO 15 + Isenção\n15:18",
+      "time": "2025-11-28T18:18:09.827Z"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "cliente_nome": "Adilton Fonseca Paixao",
+  "cliente_detalhes": {
+    "email": "adailtonpaixao367@gmail.com",
+    "phone": "+55-199-973-98945",
+    "owner": ""
+  },
+  "ultima_msg_cliente": "Fico aguardando 👍🏿",
+  "ultima_msg_agente": "Olá, Adilton! Tudo bem? Aqui é o Stefan.\n\nPrimeiramente, muito obrigado por já ter assinado o novo contrato! Fico feliz que você continue conosco nessa nova fase de expansão.\n\nSobre a sua dúvida: agora que a documentação está assinada, nós notificamo...",
+  "mensagens": [
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Isabella Costa aceitou o chat em 14/11/2025 16:14",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Isabella Costa aceitou o chat em 14/11/2025 16:14",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Você aceitou o chat",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O Você aceitou o chat | O Você aceitou o chat \n48 minutos atrás",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 14/11/2025 17:52",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 14/11/2025 17:52 | O chat foi encerrado em 14/11/2025 17:52\nUm ID de tíquete #6533 foi criado com a transcrição da mensagem gravada neste chat.",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 28/10/2025 13:29",
+      "time": ""
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "O chat foi encerrado em 28/10/2025 13:29 | O chat foi encerrado em 28/10/2025 13:29\nUm ID de tíquete #6533 foi criado com a transcrição da mensagem gravada neste chat.",
+      "time": ""
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Adilton Fonseca Paixao",
+      "text": "Boa tarde",
+      "time": "14/11/2025 16:07"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Adilton Fonseca Paixao",
+      "text": "Esse mês vai ser possível injetar energia na minha conta?",
+      "time": "14/11/2025 16:08"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "Isabella Costa",
+      "text": "Nossa equipe já está atuando na adição de uma nova usina, e o funcionamento será normalizado em breve e você economizará ainda mais conosco!",
+      "time": "14/11/2025 16:14"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Adilton Fonseca Paixao",
+      "text": "Bom | Como você avalia o seu atendimento?",
+      "time": "14/11/2025 18:07"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Como você avalia o seu atendimento?\nBom\nRuim\nFeedback ⋅ 13:29",
+      "time": "2025-10-28T16:29:51.811Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "",
+      "text": "Olá! Tudo bem?\nMe chamo Isabella e vou prosseguir com o seu atendimento.",
+      "time": "2025-11-14T19:14:12.326Z"
+    },
+    {
+      "author_type": "sistema",
+      "author_name": "Sistema",
+      "text": "Como você avalia o seu atendimento?\nBom\nRuim\nFeedback ⋅ 17:52",
+      "time": "2025-11-14T20:52:05.190Z"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "Isabella Costa",
+      "text": "Em caso de eventuais dúvidas, permaneço à disposição!",
+      "time": "28/10/2025 13:29"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Adilton Fonseca Paixao",
+      "text": "Bom | Como você avalia o seu atendimento?",
+      "time": "28/10/2025 15:04"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Adilton Fonseca Paixao",
+      "text": "Boa tarde",
+      "time": "28/11/2025 14:48"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Adilton Fonseca Paixao",
+      "text": "Quando você vão conseguir, injeta energia na minha casa?",
+      "time": "28/11/2025 14:49"
+    },
+    {
+      "author_type": "agente",
+      "author_name": "Caroline Simões",
+      "text": "Olá, Adilton! Tudo bem? Aqui é o Stefan.\n\nPrimeiramente, muito obrigado por já ter assinado o novo contrato! Fico feliz que você continue conosco nessa nova fase de expansão.\n\nSobre a sua dúvida: agora que a documentação está assinada, nós notificamo...",
+      "time": "28/11/2025 14:59"
+    },
+    {
+      "author_type": "cliente",
+      "author_name": "Adilton Fonseca Paixao",
+      "text": "Fico aguardando 👍🏿",
+      "time": "28/11/2025 15:31"
+    }
+  ]
+}

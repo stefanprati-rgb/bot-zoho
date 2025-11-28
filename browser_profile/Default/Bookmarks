@@ -1,0 +1,71 @@
+{
+   "checksum": "bd200da713b8ad3a7e4290580ca041f0",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13363361312579615",
+               "date_last_used": "0",
+               "guid": "c3f0111e-abbb-4376-884d-14da3642856a",
+               "id": "7",
+               "name": "Dell",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www1.la.dell.com/content/default.aspx?c=br&l=pt&s=gen",
+               "visit_count": 0
+            }, {
+               "date_added": "13363361312591829",
+               "date_last_used": "0",
+               "guid": "d25eee87-d3b9-4006-a2cb-c09127022e23",
+               "id": "8",
+               "name": "Support.Dell.Com",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dell.com/support/home",
+               "visit_count": 0
+            } ],
+            "date_added": "13408828006151105",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "60c3a002-8f0e-46d8-a1ea-4205223a8e43",
+            "id": "6",
+            "name": "Dell",
+            "source": "import_fre",
+            "type": "folder"
+         } ],
+         "date_added": "13408827994627220",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13408827994627220",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Outros favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13408827994627220",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos do celular",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

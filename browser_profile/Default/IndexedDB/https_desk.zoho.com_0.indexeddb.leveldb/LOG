@@ -1,0 +1,6 @@
+2025/11/28-15:27:31.546 6420 Creating DB C:\Projetos\Bot\browser_profile\Default\IndexedDB\https_desk.zoho.com_0.indexeddb.leveldb since it was missing.
+2025/11/28-15:27:31.572 6420 Reusing MANIFEST C:\Projetos\Bot\browser_profile\Default\IndexedDB\https_desk.zoho.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/28-15:27:31.593 705c Level-0 table #5: started
+2025/11/28-15:27:31.603 705c Level-0 table #5: 1273 bytes OK
+2025/11/28-15:27:31.609 705c Delete type=0 #3
+2025/11/28-15:27:31.613 6420 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

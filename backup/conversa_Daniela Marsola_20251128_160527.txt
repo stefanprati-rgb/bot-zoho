@@ -1,0 +1,62 @@
+Cliente: Daniela Marsola
+Última do cliente: Ok obrigado
+Última do agente: Que ótima notícia, Daniela! Fico muito feliz em saber que deu tudo certo e que você já finalizou as assinaturas.
+
+Com isso, seu processo de atualização está concluído com sucesso! Você já está apta a receber a energia da nossa nova usina e garantir o seu desconto ainda maior na conta de luz.
+
+O que acontece agora?
+Agora que a documentação está 100% regularizada, a Era Verde notifica a CPFL para iniciar o processo de injeção da nova energia na sua unidade.
+
+Agradeço imensamente a sua parceria e a confiança. Qualquer outra dúvida, estou à disposição!
+
+------------------------------------------------------------
+[] Sistema: O Isabella Costa atribuiu o chat ao Você em 06/11/2025 16:57
+[] Sistema: O Isabella Costa atribuiu o chat ao Você em 06/11/2025 16:57
+[] Sistema: O chat foi encerrado em 17/10/2025 17:18
+[] Sistema: O chat foi encerrado em 17/10/2025 17:18 | 17/10/2025
+O chat foi encerrado em 17/10/2025 17:18
+[06/11/2025 15:49] Daniela Marsola: Sim, saber mais! | Olá, cliente.
+Aqui é Stefan, da Era Verde Energia.
+Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade...
+[08/10/2025 15:21] Daniela Marsola: Sim
+[12/11/2025 10:49] Daniela Marsola: Sim, saber mais! | Olá, cliente.
+Aqui é Stefan, da Era Verde Energia.
+Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade...
+[12/11/2025 15:52] Caroline Simões: Olá, Caroline! Que ótimo que você demonstrou interesse em saber mais! Aqui é o Stefan.
+É exatamente isso: expandimos nossa usina para gerar mais energia e, com isso, você terá acesso a um desconto ainda maior na sua conta de luz.
+
+Para formalizar sua...
+[12/11/2025 15:53] Daniela Marsola: Pode sim
+[2025-11-06T18:35:23.079Z] agente: Olá, cliente. Aqui é Stefan, da Era Verde Energia. Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade dos benefícios na sua conta de luz. Todo o processo é digital, sem custo extra, mantendo suas condições atuais. Se preferir conversar ou esclarecer alguma dúvida sobre essa atualização, você pode agendar um horário pelo link: https://calendly.com/gestao-gdc/30min Caso queira tratar diretamente por aqui, fique à vontade para responder esta mensagem. Agradecemos a parceria. Era Verde Energia
+Sim, saber mais!
+Já agendei o horário
+15:35
+[2025-11-12T13:46:20.969Z] agente: Olá, cliente. Aqui é Stefan, da Era Verde Energia. Estamos entrando em contato para informar sobre uma atualização importante em sua parceria: devido à expansão da nossa usina solar, será necessário atualizar seu contrato para garantir a continuidade dos benefícios na sua conta de luz. Todo o processo é digital, sem custo extra, mantendo suas condições atuais. Se preferir conversar ou esclarecer alguma dúvida sobre essa atualização, você pode agendar um horário pelo link: https://calendly.com/gestao-gdc/30min Caso queira tratar diretamente por aqui, fique à vontade para responder esta mensagem. Agradecemos a parceria. Era Verde Energia
+Sim, saber mais!
+Já agendei o horário
+10:46
+[2025-11-25T12:37:07.289Z] agente: Olá! Identificamos que há um protocolo em aberto. Podemos dar continuidade ao atendimento?
+Sim
+09:37
+[2025-11-28T17:26:05.687Z] agente: Olá, tudo bem? Aqui é o Stefan da Era Verde Energia. Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e conclua a assinatura para regularizar o cadastro. Caso tenha qualquer dúvida sobre o documento, é só responder esta mensagem para que eu possa ajudar.
+Já assinei
+Quero ajuda
+14:26
+[25/11/2025 09:43] Daniela Marsola: Sim | Olá! Identificamos que há um protocolo em aberto. Podemos dar continuidade ao atendimento?
+[25/11/2025 09:47] agente: Olá, Daniela! Aqui é o Stefan.
+
+O novo contrato já foi enviado para o seu e-mail dannypiovezan@gmail.com, conforme a nossa conversa do dia 12/11.
+Estou reenviando o link direto para a assinatura:
+https://app.zapsign.com.br/verificar/58c03581-e5bc-43a...
+[28/11/2025 15:26] Daniela Marsola: Já assinei | Olá, tudo bem? Aqui é o Stefan da Era Verde Energia.
+Estou passando apenas para lembrar que o seu contrato de adesão ainda está com a assinatura pendente na plataforma ZapSign. Quando for possível, por favor acesse o link que enviei anteriormente e c...
+[28/11/2025 15:27] Daniela Marsola: Não sei mais oq tem que fazer
+[28/11/2025 15:46] Caroline Simões: Que ótima notícia, Daniela! Fico muito feliz em saber que deu tudo certo e que você já finalizou as assinaturas.
+
+Com isso, seu processo de atualização está concluído com sucesso! Você já está apta a receber a energia da nossa nova usina e garantir o seu desconto ainda maior na conta de luz.
+
+O que acontece agora?
+Agora que a documentação está 100% regularizada, a Era Verde notifica a CPFL para iniciar o processo de injeção da nova energia na sua unidade.
+
+Agradeço imensamente a sua parceria e a confiança. Qualquer outra dúvida, estou à disposição!
+[28/11/2025 16:00] Daniela Marsola: Ok obrigado
