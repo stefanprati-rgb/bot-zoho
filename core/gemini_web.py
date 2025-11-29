@@ -17,6 +17,35 @@ class GeminiWebClient:
         self.gemini_tab = None
         self.zoho_tab = None
 
+    def _clean_markdown_formatting(self, text):
+        """Remove formatação Markdown (negrito, itálico, sublinhado) e qualquer conteúdo entre colchetes."""
+        if not text:
+            return text
+        
+        import re
+        
+        # Remove qualquer coisa entre colchetes [] (citações, referências, etc.)
+        text = re.sub(r'\[.*?\]', '', text)
+        
+        # Remove negrito (**texto** ou __texto__)
+        text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
+        text = re.sub(r'__(.+?)__', r'\1', text)
+        
+        # Remove itálico (*texto* ou _texto_)
+        text = re.sub(r'\*(.+?)\*', r'\1', text)
+        text = re.sub(r'_(.+?)_', r'\1', text)
+        
+        # Remove sublinhado (~~texto~~)
+        text = re.sub(r'~~(.+?)~~', r'\1', text)
+        
+        # Remove espaços múltiplos que podem ter sobrado
+        text = re.sub(r'\s+', ' ', text)
+        
+        # Remove espaços no início e fim
+        text = text.strip()
+        
+        return text
+
     def open_gemini(self):
         """Abre o Gemini em uma nova aba se ainda não estiver aberto."""
         try:
@@ -125,7 +154,8 @@ class GeminiWebClient:
                     response_text = pyperclip.paste()
                     
                     if response_text:
-                        return response_text
+                        # Limpar formatação Markdown antes de retornar
+                        return self._clean_markdown_formatting(response_text)
                         
             except Exception as e:
                 logging.warning(f"Falha ao usar botão de copiar: {e}")
@@ -156,7 +186,11 @@ class GeminiWebClient:
                 return lastChild.innerText;
             """, GEMINI_WEB_SELECTORS["chat_history"])
             
-            return last_text or "Erro: Resposta vazia."
+            # Limpar formatação Markdown do fallback também
+            if last_text:
+                return self._clean_markdown_formatting(last_text)
+            
+            return "Erro: Resposta vazia."
 
         except Exception as e:
             logging.error(f"Erro ao capturar resposta do Gemini: {e}")
